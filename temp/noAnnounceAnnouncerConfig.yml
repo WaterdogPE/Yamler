@@ -1,0 +1,13 @@
+
+# Order, either sequential or random
+order: sequential
+
+# The server that should be asked for permissions (Most likely the hub server)
+permissionServer: lobby
+
+# How often the permissions cache is cleared in minutes. (0=never)
+permissionCacheTime: 0
+
+# A list of announcements (See spigot page for usage)
+servers: {}
+nonannouncements: {}

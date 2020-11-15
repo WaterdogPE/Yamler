@@ -1,0 +1,17 @@
+
+Command:
+  NotPlayer: You can do this only as a Player
+Announce:
+  FactionMode: 'You currently Chat to: %mode'
+Switch:
+  FactionChat:
+    Allies: You now talk to your Allies
+    Faction: You now talk to your Faction
+    AlliesAndTruces: You now talk to your Allies and Truces
+    Truces: You now talk to your Truces
+    Enemies: You now talk to your Enemies
+    Global: You now talk to the Global Chat
+Towny:
+  NotInTown: You are not in a Town
+  TownNotInNation: This Town is not in a Nation
+  CouldNotGetTown: Could not get Town. Please report this to a Admin.

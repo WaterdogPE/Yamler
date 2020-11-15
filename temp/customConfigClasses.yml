@@ -1,0 +1,14 @@
+# This is a example Config showing you how to use Custom Classes inside the Config
+
+Spawn:
+
+  # To configure the default Spawn Location please use '/plugin setspawn' ingame.
+  # If you modify it here it can not work.
+  Location:
+    server: null
+    world: null
+    x: null
+    y: null
+    z: null
+    pitch: null
+    yaw: null

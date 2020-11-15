@@ -1,0 +1,17 @@
+Enabled: true
+Announcements:
+  test:
+    Messages:
+    - '&4Welcome to the server!'
+    - '&aDon''t forget to check out our website'
+    Interval: 300
+  global:
+    Messages:
+    - '&4Welcome to the server!'
+    - '&aDon''t forget to check out our website'
+    Interval: 300
+  test1:
+    Messages:
+    - '&4Welcome to the server!'
+    - '&aDon''t forget to check out our website'
+    Interval: 300

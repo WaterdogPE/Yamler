@@ -1,0 +1,10 @@
+menus:
+  Game Servers:
+    servers:
+    - displayPlayers: true
+      server: TDM1
+      hostName: guerra.year4000.net
+      port: 26602
+      timeout: null
+      displayMotd: false
+    title: Game Servers
