@@ -61,6 +61,10 @@ public class InternalConverter {
 	}
 
 	public void fromConfig(YamlConfig config, Field field, ConfigSection root, String path) throws Exception {
+		if (config.useDefaultValues && !root.has(path)) {
+			return;
+		}
+
 		Object obj = field.get(config);
 
 		Converter converter;

@@ -13,4 +13,6 @@ public @interface SerializeOptions {
 	boolean skipFailedObjects() default false;
 
 	ConfigMode configMode() default ConfigMode.FIELD_IS_KEY;
+
+	boolean useDefaultValues() default true;
 }

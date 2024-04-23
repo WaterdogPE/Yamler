@@ -15,6 +15,7 @@ public class BaseConfig {
 	protected transient String[] CONFIG_HEADER = null;
 	protected transient ConfigMode CONFIG_MODE = ConfigMode.DEFAULT;
 	protected transient boolean skipFailedObjects = false;
+	protected transient boolean useDefaultValues = true;
 
 	protected transient InternalConverter converter = new InternalConverter();
 
@@ -65,5 +66,6 @@ public class BaseConfig {
 		CONFIG_HEADER = options.configHeader();
 		CONFIG_MODE = options.configMode();
 		skipFailedObjects = options.skipFailedObjects();
+		useDefaultValues = options.useDefaultValues();
 	}
 }
